@@ -16,7 +16,7 @@ export default function Navbar() {
 
   return (
     <nav
-      className={`container flex flex-col md:flex-row  justify-between py-8 ${londrinaSolid.className}`}
+      className={`container flex flex-col md:flex-row  justify-between z-10 py-8 ${londrinaSolid.className}`}
     >
       <Link href='/' className='mb-6'>
         <Image src={logo} alt="Logotipo da página" />

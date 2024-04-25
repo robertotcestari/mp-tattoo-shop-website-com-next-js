@@ -4,7 +4,7 @@ import { islandMoments } from '../_lib/fonts';
 
 export default function Sobre() {
   return (
-    <main className="relative flex-1  ">
+    <main className="relative flex-1">
       <h1 className="text-3xl font-black mt-12">
         Prazer, sou <span className="text-yellow-400">Sandro Luz</span>
       </h1>
@@ -35,8 +35,9 @@ export default function Sobre() {
         </p>
       </section>
       <p className={`${islandMoments.className} text-6xl mt-6`}>Sandro Luz</p>
+      
       <Image
-        width="400"
+        width="350"
         className="md:absolute -right-16 -bottom-20 "
         src={portrait}
         alt="Retrato de Sandro Luz"
