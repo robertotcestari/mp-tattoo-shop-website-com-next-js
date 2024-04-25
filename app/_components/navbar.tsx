@@ -36,7 +36,7 @@ export default function Navbar() {
             </span>
             <span className="hidden md:flex text-xs text-zinc-400 font-extralight gap-1 items-center">
               <FaWhatsapp />
-              (+11 99999 9999)
+              (11 99999 9999)
             </span>
           </Link>
         </li>
